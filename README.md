@@ -4,6 +4,7 @@ You can run this [here](https://replit.com/@malikmmusa/boilerplate-project-issue
 
 This is an issue tracker that allows you to CREATE new issue tickets, UPDATE existing issue tickets, and DELETE issue tickets
 
+<pre>
 Example GET usage:
 /api/issues/{project}
 /api/issues/{project}?open=true&assigned_to=Joe
@@ -22,4 +23,4 @@ Example return
   },
   ...
  ]
-
+</pre>
